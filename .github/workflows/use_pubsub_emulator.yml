@@ -1,8 +1,6 @@
 on:
-  pull_request:
-    # Sequence of patterns matched against refs/heads
-    branches:
-      - main
+  push:
+
 jobs:
   test:
     runs-on: ubuntu-latest
